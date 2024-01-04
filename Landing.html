@@ -1,0 +1,1029 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HASBER-A Concrete Machine</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montserrat&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="images/flaticon.png" type="image/x-icon">
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+   
+  </head>
+  <body>
+
+
+
+    <div class="container-fluid" id="landing-container">
+
+
+
+        <div class="row align-items-center" id="LandingNav">
+
+            <div class="col-12">
+
+
+                <nav class="navbar navbar-expand-lg bg-white  align-items-center">
+                    <div class="container-fluid ">
+                      <a class="navbar-brand" href="#"><img src="images/Logo.png" class="img-fluid" alt="logo"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse d-flex align-items-center" id="navbarSupportedContent">
+
+                        <p class="mx-auto  navbar-nav font-gems color-blue mt-2  mb-2 mb-lg-0 "  >INDIA’S FIRST TRUCK MOUNTED MOBILE CONCRETE PLANT</p>
+                        <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                          </li>
+                        </ul> -->
+                        <form class="d-flex" role="search">
+                          <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                          <a href="Contact.html" class="btn button rounded-0 border-0 px-4 py-2"  >CONTACT</a>                        </form>
+                      </div>
+                    </div>
+                  </nav>
+
+             
+
+            </div>
+
+
+
+        </div><!---end of navbar -->
+
+            <div class="row bg-orange min-vh-100 align-items-center justify-content-center" id="landing-hero">
+
+
+                <div class=" col-12 col-md-4 p-5" >
+                    <h1 class="text-white font-gems  display-1" >HASBER <br>
+                        c-30</h1>
+
+                        <button class="btn rounded-0 bg-transparent text-white  border border-white" >Know More</button>
+                </div>
+
+
+                <div class=" col-12 col-md-6">
+
+
+                    <img src="images/Hero_img.png" class="img-fluid" alt="img">
+                </div>
+
+
+                <!-- <div style="  position:  absolute;" id="popup">
+
+
+
+                  <div class="form-pop">
+
+
+                  </div>
+
+
+
+
+                  
+
+                </div>ed of popup -->
+
+
+                <!-- <button id="myBtn">Open Modal</button> -->
+
+<!-- The Modal -->
+
+<div id="myModal" class="modal" style="z-index: 99;">
+
+ 
+  <div class="modal-content">
+    <span class="close d-flex justify-content-between align-items-center" >   <img class="img-fluid" src="images/Logo.png" alt="img">   &times;   </span>
+             <p class="font-gems color-blue d-flex align-items-center justify-content-between"  >   <span class="pe-none"> Contact us</span>      </p>
+                <p class="font-mont" style="font-size: 14px;" >We would be glad to be of service to you. We look forward to your suggestions and feedback. Kindly fill up the form below.</p>
+        
+                <form   action="https://formsubmit.co/swapnilkukadkar45387@gmail.com" method="POST">
+
+                  <div class="mb-3">
+                    <input type="text"  name="name" placeholder="Enter name * " class="form-control rounded-0 p-2" id="recipient-name">
+                  </div>
+                  
+                  <div class="mb-3">
+                    <input type="email"  name="email" placeholder="Email* " class="form-control rounded-0 p-2 " id="recipient-email">
+                  </div>
+                  <div class="mb-3">
+                    <input type="number"  name="contact" placeholder="Contact* " class="form-control rounded-0 p-2" id="recipient-number">
+                  </div>
+                  <div class="mb-3">
+                    <input type="text"  name="state" placeholder="State* " class="form-control rounded-0 p-2" id="recipient-state">
+                  </div>
+                  <div class="mb-3">
+                    <input type="text"  name="city" placeholder="City* " class="form-control rounded-0 p-2" id="recipient-city">
+                  </div>
+                  <div class="mb-3">
+                    <input type="text"  name="message" placeholder=" Message* " class="form-control rounded-0 p-2" id="recipient-message">
+                    <!-- <input type="hidden" name="_captcha" value="false"> -->
+                  </div>
+
+                  
+                  <input type="hidden" name="_captcha" value="false">
+                  <input type="hidden" name="_next" value="https://hasber.in/">
+                  <button type="submit" name="submit" class="btn  button rounded-0" >Submit</button>
+                  
+                </form>
+
+  </div>
+
+</div>
+                <!-- <p class="font-gems color-blue"  >Contact us</p>
+                <p class="font-mont" style="font-size: 14px;" >We would be glad to be of service to you. We look forward to your suggestions and feedback. Kindly fill up the form below.</p>
+        
+                <form>
+                  <div class="mb-3">
+                    <input type="text"  placeholder="Enter name * " class="form-control rounded-0 p-2" id="recipient-name">
+                  </div>
+                  
+                  <div class="mb-3">
+                    <input type="email"  placeholder="Email* " class="form-control rounded-0 p-2" id="recipient-name">
+                  </div>
+                  <div class="mb-3">
+                    <input type="number"  placeholder="Contact* " class="form-control rounded-0 p-2" id="recipient-name">
+                  </div>
+                  <div class="mb-3">
+                    <input type="text"  placeholder="State* " class="form-control rounded-0 p-2" id="recipient-name">
+                  </div>
+                  <div class="mb-3">
+                    <input type="text"  placeholder="City* " class="form-control rounded-0 p-2" id="recipient-name">
+                  </div>
+                  <div class="mb-3">
+                    <input type="text"  placeholder=" Message* " class="form-control rounded-0 p-2" id="recipient-name">
+                  </div>
+        
+                  
+                </form> -->
+
+
+
+
+             </div> <!--landing hero row end-->
+
+             <div class="row justify-content-center text-center py-5" id="highlight"> 
+
+                <div class="col-md-7 col-11 p-5">
+
+                    <h2 class="font-gems color-blue py-3 pb-5" >Highlights Of HASBER</h2>
+
+                    <p class="font-mont  color-blue para-size"  >HASBER C-30 is a highly compact and Portable RMC PRODUCTION unit along with the Transportation equipment suitable for installation on a 28 Ton Truck Chassis.</p>
+
+                     <p class="font-mont  color-blue para-size">  HASBER C-30 is provided with a high torque TWIN SHAFT MIXER (Indian patent granted) with an external drive assembly supported on a steel fabricated structure with a batch capacity of 0.35 cubic meter of wet compacted concrete per batch. </p> 
+                </div>
+                         
+             </div><!--end of highlight row-->
+
+             <div class="row bg-blue py-5 justify-content-center align-items-center" id="overview">
+
+                <div class="col-10 text-center py-5">
+                    <h2 class="font-gems text-white "  >Product Overview</h2>
+
+                </div>
+
+
+                <div class="col-12 col-md-6 p-3 text-center">
+
+                    <img src="images/Rectangle 102.png" class="img-fluid" alt="img">
+                </div>
+
+                <div class=" col-12 col-md-5  font-mont text-white">
+
+                    <ul class="lh-lg list-un styled fw-semibold " >
+                        <li>28 Tonne Truck Chassis</li>
+                           <li> High Torque</li>
+                           <li> Twin Shaft Mixer</li>
+                           <li> Indian Patent Granted</li>
+                           <li> External Assembly Supported</li>
+                           <li> Batch Capacity of 0.35 cubic meter</li>
+                          <li>  Automatic PLC Operating system with USB</li>
+                          <li>  Batch Printing Attachment Facility</li>
+
+                          <li class="list-unstyled" >         
+                            <a href="#contact-heading" class="btn btn-orange  rounded-0 bg-orange font-mont w-50 my-4"> ENQUIRE NOW </a>       
+                          </li>
+                         
+                    </ul>
+                 
+                  
+                </div>
+             </div> <!--end of overview row-->
+
+             <div class="row  min-vh-100 py-5 justify-content-center p-0 px-3"  id="card">
+
+
+               <div class="col-12 py-5">
+
+                <div class="row align-items-center justify-content-center gy-3 py-3">
+
+                    <div class="col-12 col-md-6 ">
+
+                        <div class="inner-card bg-white color-orange font-mont mx-auto ">
+    
+                            <img src="images/Group 101.png" alt="img">
+    
+                            <p class="pt-3" >   COMPACT SIZE</p>
+    
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 ">
+    
+                        <div class="inner-card bg-white color-orange font-mont mx-auto ">
+    
+                            <img src="images/Group 119.png" alt="img">
+    
+                            <p class="pt-3" >    FLEXIBILITY</p>
+    
+                        </div>
+                    </div>
+
+                </div>
+               
+
+                <div class="row align-items-center justify-content-center py-3">
+
+                    <div class="col-12 col-md-4">
+
+                        <div class="inner-card bg-white color-orange font-mont mx-auto ">
+    
+                            <img src="images/Group.png" alt="img">
+    
+                            <p class="pt-3" > COST EFFECTIVE</p>
+    
+                        </div>
+    
+    
+                    </div>
+    
+    
+                    <div class="col-12 col-md-4 text-center">
+                        <img src="images/Hero_img.png"  class="img-fluid"  alt="img">
+                    </div>
+    
+    
+                    <div class="col-12  col-md-4">
+    
+                        <div class="inner-card bg-white color-orange font-mont mx-auto ">
+    
+                            <img src="images/Group 116.png" alt="img">
+    
+                            <p class="pt-3" >   FRESH CONCRETE MIX</p>
+    
+                        </div>
+    
+    
+                    </div>
+    
+
+                </div>
+
+                <div class="row align-items-center py-3 gy-3 ">
+
+                    <div class="col-12 col-md-6 ">
+
+                        <div class="inner-card bg-white color-orange font-mont mx-auto p-1">
+    
+                            <img src="images/Group 120.png" alt="img">
+    
+                            <p class="pt-3" >   ENVIRONMENT FRIENDLY</p>
+    
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 ">
+    
+                        <div class="inner-card bg-white color-orange font-mont mx-auto ">
+    
+                            <img src="images/Group 101.png" alt="img  ">
+    
+                            <p class="pt-3" >    INDUSTRY APPROVED</p>
+    
+                        </div>
+                    </div>
+
+                </div>
+               </div>
+
+               
+
+
+
+
+
+             </div><!--end of card row-->
+
+             <div class="row py-5 justify-content-center align-items-center overflow-hidden " id="yt-video">
+
+              <div class="col-12 text-center" data-aos="fade-up">
+                <h2 class="font-gems color-blue text-center h2-heading">From youtube</h2>
+              </div>
+  
+  
+  
+              <div class="col-12  ">
+  
+                    <div class="row  youtube-container justify-content-center align-items-center  ">
+  
+  
+  
+                      <div class="col-7   ">
+  
+   
+                      <div class="owl-carousel owl-theme  "  id="owl-carousel-3"  data-aos="fade-up" >
+  
+                      
+                        <iframe  id="yt-iframe"  class="youtube-iframe item " src="https://www.youtube.com/embed/FlgjHvWVc24?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> hello</iframe>
+  
+                      
+  
+                        <iframe  id="yt-iframe"  class="youtube-iframe item " src="https://www.youtube.com/embed/FlgjHvWVc24?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        
+                        <iframe  id="yt-iframe"  class="youtube-iframe item " src="https://www.youtube.com/embed/FlgjHvWVc24?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  
+                      
+  
+                      </div>
+  
+                      
+  
+  
+                      </div>
+  
+  
+                    </div>
+  
+              </div>
+  
+  
+  
+  
+  
+            </div>     <!--   end of yt row -->
+
+             <div class="row justify-content-center align-items-center" id="recognition">
+
+                <div class="col-12 py-5">
+                    <h2 class="text-center font-gems color-blue">Recognition</h2>
+                </div>
+
+                <div class="col-10 text-center">
+
+                    <div class="row justify-content-center py-5 gy-5" >
+                        <div class=" col-12  col-md-2">
+                            <img src="images/Group 109.png" class="img-fluid" alt="img">
+                        </div>
+                        <div class=" col-12  col-md-2">
+                            <img src="images/Vector2.png" class="img-fluid" alt="img">
+                        </div>
+                        <div class=" col-12  col-md-2">
+                            <img src="images/Group 111.png" class="img-fluid" alt="img">
+                        </div>
+                        <div class=" col-12  col-md-2">
+                            <img src="images/Group 110.png" class="img-fluid" alt="img">
+                        </div>
+                        <div class=" col-12  col-md-2">
+                            <img src="images/Layer 2-cup.png" class="img-fluid" alt="img">
+                        </div>
+                        <div class="col-12 col-md-2">
+                            <img src="images/Group 108.png" class="img-fluid" alt="img">
+                        </div>
+                    </div>
+                </div>
+
+             </div><!--end of recognition row-->
+
+
+             <div class="row bg-orange py-5 justify-content-center" id="solution">
+
+                <div class="col-10 py-3">
+                    <h2 class="font-gems text-white text-center">Unique Concrete Solutions</h2>
+                </div>
+
+
+                <div class="col-10">
+
+                    <div class="row justify-content-center gy-3">
+
+                        <div class="col-12 col-md-4 bg-white mx-3 p-4 rounded-3 ">
+
+                            <h4 class="font-gems color-blue py-3">Without HASBER</h4>
+
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"> <p class="font-mont"> <img src="images/Subtract.png" class="img-fluid me-2" alt="img">  Expensive  </p> </li>
+                                <li class="list-group-item"><p class="font-mont"> <img src="images/Subtract.png" class="img-fluid me-2" alt="img">  Stale Concrete Mix </p></li>
+
+                                <li class="list-group-item"><p class="font-mont"> <img src="images/Subtract.png" class="img-fluid me-2" alt="img">  Time Consuming</p></li>
+                                <li class="list-group-item"><p class="font-mont"> <img src="images/Subtract.png" class="img-fluid me-2" alt="img">Distance Batching Plant</p></li>
+
+
+              </ul>
+
+                        </div>
+                        <div class="col-12  col-md-4 bg-white mx-3 p-4 rounded-3 ">
+
+                            <h4 class="font-gems color-blue py-3">with HASBER</h4>
+
+                        <ul class="list-group list-group-flush">
+                                <li class="list-group-item"> <p class="font-mont"> <img src="images/Dribbble-Light-Preview.png" class="img-fluid me-2" alt="img"> Cost Saving </p> </li>
+                                <li class="list-group-item"><p class="font-mont"> <img src="images/Dribbble-Light-Preview.png" class="img-fluid me-2" alt="img"> Excellent Fresh Concrete Mix </p></li>
+
+                                <li class="list-group-item"><p class="font-mont"> <img src="images/Dribbble-Light-Preview.png" class="img-fluid me-2" alt="img"> Get Ready Concrete In 20 Sec</p></li>
+                                <li class="list-group-item"><p class="font-mont"> <img src="images/Dribbble-Light-Preview.png" class="img-fluid me-2" alt="img">Mobile Concrete Batching Plant</p></li>
+
+
+                               
+                              
+                      </ul>
+
+                        </div>
+
+                        <div class="col-10 pt-5 text-center">
+
+                            <h4 class="font-gems text-white text-center py-4">Want To join the revolution of concretisation ?</h4>
+                            <a href="#contact-heading" class="btn btn-blue bg-blue  color-white font-mont w-75 p-2 ">ENQUIRE NOW</a>
+                        </div>
+                     
+                        
+                    </div>
+                </div>
+
+             </div><!--end of solution row-->
+
+
+             <div class="row bg-blue py-5 text-white justify-content-center" id="customer">
+
+                <div class="col-10  py-3">
+                   <h2 class="font-gems text-center text-center"> Will you be the next?</h2>
+
+                </div>
+
+                <div class=" col-12  col-md-5 text-center p-3 border border-0 border-top">
+                    <p class="font-mont text-center"> find out how HASBER C-30 is bringing Change in the Esteemed Customers?</p>
+                </div>
+
+
+                <div class="col-10">
+
+
+                    <div class="row py-3">
+
+                        <div class=" col-12 col-md-4 p-2">
+
+                            <div class="profile-card text-blue text-center position-relative bg-transparent  py-3 border-0" >
+                                <img src="images/Ellipse 9.png" class="card-img-top img-fluid w-25 mx-auto  " style="margin-bottom: -10%;" alt="...">
+                                <div class="card-body bg-white p-3 pt-5 rounded-3">
+                                  <h5 class="card-title color-blue font-mont fw-bold" style="font-size: 19px;">Name Surname</h5>
+                                  <p class="card-text color-blue font-mont" style="font-size: 14px;">Designation </p>
+
+                                  <p class="font-mont text-dark" style="font-size: 12px;">"Trust Brand HASBER for Exceptional Concrete Machine Services"</p>
+
+
+                                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                </div>
+                              </div>
+                        </div>
+                        <div class=" col-12 col-md-4 p-2">
+
+                            <div class="profile-card text-blue text-center position-relative bg-transparent  py-3 border-0" >
+                                <img src="images/Ellipse 9.png" class="card-img-top img-fluid w-25 mx-auto  " style="margin-bottom: -10%;" alt="...">
+                                <div class="card-body bg-white p-3 pt-5 rounded-3">
+                                  <h5 class="card-title color-blue font-mont fw-bold" style="font-size: 19px;">Name Surname</h5>
+                                  <p class="card-text color-blue font-mont" style="font-size: 14px;">Designation </p>
+
+                                  <p class="font-mont text-dark" style="font-size: 12px;">"Trust Brand HASBER for Exceptional Concrete Machine Services"</p>
+                                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                </div>
+                              </div>
+                        </div>
+
+                        
+                        <div class=" col-12 col-md-4 p-2">
+
+                            <div class="profile-card text-blue text-center position-relative bg-transparent  py-3 border-0" >
+                                <img src="images/Ellipse 9.png" class="card-img-top img-fluid w-25 mx-auto  " style="margin-bottom: -10%;" alt="...">
+                                <div class="card-body bg-white p-3 pt-5 rounded-3">
+                                  <h5 class="card-title color-blue font-mont fw-bold" style="font-size: 19px;">Name Surname</h5>
+                                  <p class="card-text color-blue font-mont" style="font-size: 14px;">Designation </p>
+
+                                  <p class="font-mont text-dark" style="font-size: 12px;">"Trust Brand HASBER for Exceptional Concrete Machine Services"</p>
+                                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                </div>
+                              </div>
+                        </div>
+                        
+                    </div>
+
+
+                </div>
+
+
+             </div><!--end of customer row-->
+
+
+             <div class="row py-5 g-0 justify-content-center align-items-center" id="pricing">
+
+
+                <div class="col-12 col-lg-6 ps-0 p-2">
+
+                    <div class="position-relative">
+
+                        <img src="images/Hasber-Truck-1-1 2.png"  style="z-index: 10;"  class=" position-relative img-fluid" alt="img">
+
+                        <div class="bg-orange h-50 w-100 position-absolute top-50 " style="z-index: 9; border-radius: 0px 0px 100px 0px;">
+
+                        </div>
+
+
+
+                    </div>
+                   
+
+                    <div class="row justify-content-center py-3 align-items-center">
+
+                        <div class="col-3">
+                            <img src="images/Rectangle 119.png"  class="img-fluid" alt="img">
+                        </div>
+                        <div class="col-3">
+                            <img src="images/Rectangle 120.png" class="img-fluid" alt="img">
+                        </div>
+                        <div class="col-3">
+                            <img src="images/Rectangle 121.png" class="img-fluid" alt="img">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-lg-6  p-2 ">
+                    <h2 class="font-gems color-blue" >HASBER C-30</h2>
+                    <p class="font-gems color-blue">Truck mounted Mobile Bathing Plant</p>
+
+                    <p><img src="images/Group 135.png" class="img-fluid" alt="img"></p>
+
+                    <div class="py-4">
+
+                        <h2 class="font-gems " style="color: #000;"><img src="images/rupee-1-frame-svgrepo-com 1.png" alt="img"> 70,392,254  <span class="font-mont " style="font-size: 14px;" >Ex-Showroom Price*</span></h2>
+
+                    <p>Prices shown are Ex-Showroom price. Final offer price will be given by dealer</p>
+
+                    </div>
+
+                    
+
+                        <div class="py-4 ">  
+                            <a href="#" class="btn buttons btn-orange bg-orange   py-2 px-4 font-mont "> BOOK NOW AT   	&#8377;   81,000  </a>
+        
+        
+                            <a href="#" class="btn orrange-button btn-orange bg-orange  py-2 px-4 font-mont mt-3 mt-md-0"> BOOK TEST DRIVE </a>
+        
+
+                        </div>
+
+
+                </div>
+
+              
+
+
+
+
+             </div><!--end of pricing row-->
+
+         
+
+
+         
+
+
+          <div class="row justify-content-center   bg-orange py-4" id="land-working">
+
+
+            <div class="col-11 text-center">
+
+                <h2 class="font-gems text-white">Working of HASBER C-30 </h2>
+
+            </div>
+
+          </div><!--end of landing working-->
+
+          <div class="row min-vh-100 g-0 py-5" id="land-working">
+
+          </div><!--end of land-working-->
+
+          <div class="row bg-orange py-5   justify-content-center align-items-center text-white" id="Brochure">
+
+            <div class="col-10 text-center">
+
+                <h2 class="font-gems text-white text-center py-3">Download HASBER C-30 brochure</h2>
+
+                <a href="#" class="btn bg-blue  w-75 text-center btn-blue  font-mont"> DOWNLOAD NOW</a>
+            </div>
+
+
+          </div><!--end of borchure row-->
+
+          <div class="row  py-5 justify-content-center" id="landingFaq">
+
+            <div class="col-11 text-center">
+                <h2 class="font-gems color-blue">FAQ’s</h2>
+            </div>
+
+            <div class="col-11 col-lg-6 py-5">
+
+
+                
+        <!-- ------------------------------------=================-----second accordion--==================------------------------ -->
+
+
+
+<div class="accordion  font-mont" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed text-black fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            What is the UNIQUE solution offered by HASBER?
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">For the first time in India, HASBER offers C-30 & C-30 plus Mobile Concrete Mixers which produce as well as transport concrete. The C-30 & C-30 plus machines are patented in INDIA and have been granted multiple patents.</div>
+      </div>
+    </div>
+
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed text-black fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Are the C-30 & C-30 plus machines automatic?
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Yes. The C-30 & C-30 Plus machines are fully automatic and provided with PLC based operating system similar to a RMC plant.</div>
+      </div>
+    </div>
+
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingThree">
+        <button class="accordion-button collapsed text-black fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Do the C-30 & C-30 plus machines batch materials on volumetric basis?
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">No. The C-30 & C-30 plus machines batch all the materials on “Weight” basis. Wherein the VWT weight batching system is separately patented in INDIA..</div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingFour">
+        <button class="accordion-button collapsed text-black fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+            How does the C-30 / C-30 plus Mixer transports materials?
+        </button>
+      </h2>
+      <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">The C-30 and C-30 plus Mobile Concrete Mixers are provided with three separate bins for three separate aggregates namely 10 mm stone, 20 mm stone and Sand. The C-30 and C-30 plus mixers also are provided with two separate bins for cement & fly ash (or GGBS). Unlike any other equipment in India, the C-30 & C-30 plus mixers are also provided with two large capacity water tanks, one on each side of the truck enough to produce concrete even at a remote location. The Model C-30 is provided with single admixture and Model C-30 is provided with two admixtures and additional dosing system such as micro-silica.</div>
+      </div>
+    </div>
+
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingFive">
+          <button class="accordion-button collapsed text-black fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+            Can the C-30 or C-30 plus mixer used like a batching plant at one location?
+          </button>
+        </h2>
+        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Yes. The C-30 & C-30 plus mixers are actually mobile batching plants wherein these machines can be continuously loaded with raw materials and continuous output can be taken at one location.</div>
+        </div>
+      </div>
+
+
+  </div>
+
+
+<!-- ---------------------------------------=================================--second accordion--=================================--------------------------- -->
+
+            </div>
+
+          </div><!--end of faq-->
+
+
+
+          <div class="row justify-content-center  py-5" id="enquire-landing">
+
+            <div class="col-11 col-lg-6 text-center ">
+
+                <h2 class="font-gems color-blue">Have any Question on your mind?</h2>
+                <img src="images/Line 11.png " class="py-4 img-fluid" alt="img">
+
+
+                <a href="#contact-heading" class="font-mont btn-blue bg-blue w-100 py-2 btn my-3"> ENQUIRE NOW</a>
+
+
+            </div>
+
+
+          </div><!--end of landing enquire-->
+
+          <div class="row justify-content-center text-center position-relative bg-white py-5 py-lg-0" id="landing-contact" style="z-index: 22;">
+            <div class="col-10  shadow-lg   bg-white p-md-3 py-3 "  id="form-col">
+                <h2 class="font-gems  color-blue" id="contact-heading">Contact Us</h2>
+
+
+<div class="row justify-content-center  ">
+    <div class="col-6 p-md-4">
+
+        <form class="row g-3 justify-content-center ">
+
+            <div class="col-md-12">
+                <!-- <label for="inputPassword4" class="form-label">Password</label> -->
+                <input type="text" placeholder="Name*" class="form-control  rounded-0" id="inputPassword4">
+              </div>
+
+            <div class="col-md-12">
+              <!-- <label for="inputEmail4" class="form-label">Email</label> -->
+              <input type="email" placeholder="Email*" class="form-control rounded-0" id="inputEmail4">
+            </div>
+            
+            <div class="col-md-12">
+              <!-- <label for="inputAddress" class="form-label">Address</label> -->
+              <input type="number" class="form-control rounded-0"  placeholder="Contact No*">
+            </div>
+
+            <div class="col-12">
+
+                <div class="row justify-content-around gy-3">
+
+                    <div class="col-md-6">
+                        <input type="text" class="form-control rounded-0"  placeholder="State*">
+                      </div>
+                      <div class="col-md-5">
+                        <input type="text" class="form-control  rounded-0 " placeholder="City*" >
+                      </div>
+
+                </div>
+
+            </div>
+
+           
+
+            <div class="col-md-12">
+                <!-- <label for="inputCity" class="form-label">City</label> -->
+                <input type="text" class="form-control rounded-0 " placeholder="Message*" id="inputMsg">
+              </div>
+         
+            <div class="col-12">
+              <button type="submit" class="btn bg-orange btn-orange font-gems  w-100">submit</button>
+            </div>
+          </form>
+
+    </div>
+</div>
+
+               
+
+
+            </div>
+          </div><!--end of form-->
+        
+
+<!--       
+            <div class="row bg-blue text-white py-5 g-0 justify-content-center min-vh-100 align-items-end"  id="footer-land">
+
+                <div class="col-10 col-md-10 " >
+    
+                    <div class="row justify-content-center">
+    
+                        <div class=" col-12 col-lg-4" data-aos="fade-down">
+    
+                            <img src="images/Hasber-Logo1-1 2.png" class="img-fluid" alt="img">
+                            <p class="font-mont  py-3">India’s first Patented Mobile Concrete <br> Batching Plant.
+                                Proudly Associated with IME</p>
+    
+                                <div class=" d-flex align-items-center">
+                                    <img src="images/image 4.png"  class="ms-2" alt="img">
+                                    <img src="images/image 5.png" class="ms-2" alt="img">
+                                    <img src="images/image 6.png" class="ms-2" alt="img">
+                                </div>
+    
+                              
+    
+                        </div>
+    
+                        <div class="col-lg-4 col-12" data-aos="fade-down">
+    
+                            <h3 class="font-mont  color-orange">USEFUL LINKS</h3>
+                            <ul class="list-unstyled font-mont lh-lg ">
+                                <li>Home</li>
+                                <li>About</li>
+                                <li>HAsber C-30</li>
+                                <li>Hasber In NEWS </li>
+                                <li>FAQs</li>
+                            </ul>
+                        </div>
+    
+                        <div class="col-lg-4 col-12" data-aos="fade-down">
+    
+                            
+                            <h3 class="font-mont   color-orange">CONTACT </h3>
+    
+                            <ul class="list-unstyled font-mont ">
+                                <li>
+                                    <p>  <img src="images/Group 88.png" alt="img">  1530, Eiffel Square, Tilak Road, Pune, India - 411030</p>
+                                </li>
+                                <li>
+                                    <p>  <img src="images/Group 87.png" alt="img">  info@hasber.in</p>
+                                </li>
+                                <li>
+                                    <p>  <img src="images/Group 89.png" alt="img">  Mon - Sat : 10:00 - 18:00</p>
+                                </li>
+                                <li>
+                                    <p>  <img src="images/Vector (Stroke).png" alt="img"> +91 8669690303</p>
+                                </li>
+                            </ul>
+                        </div>
+    
+                        <div class="col-12 pt-4 text-center">
+                            <p class="font-mont">Copyright [year] Hasber | Designed by Far & Wide</p>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+    
+    
+    
+            </div>      -->
+            
+            
+
+            <div class="row  min-vh-100 align-items-end justify-content-center bg-blue text-white position-relative py-4 gy-3" id="land-footer">
+
+
+                <div class="col-10 bg-blue col-md-10">
+
+                  <div class="row gy-3 bg-blue" >
+                    <div class=" col-12 col-lg-4 " >
+
+                       <a href="index.html"> <img src="images/Hasber-Logo1-1 2.png"  class="img-fluid" alt="img"> </a> 
+                       <p class="font-mont  py-3">India’s first Patented Mobile Concrete <br> Batching Plant.
+                           Proudly Associated with IME</p>
+
+                           <div class=" d-flex align-items-center">
+                              <a href="https://www.linkedin.com/company/hasber-concretemachine/" target="_blank"> <img src="images/image 4.png"  class="ms-2" alt="img">  </a> 
+
+                              <a href="https://www.youtube.com/channel/UCEgJH9VInY3sL8jRCkYADzQ" target="_blank">   <img src="images/image 5.png" class="ms-2" alt="img"></a>
+                                 
+                           <a href="https://www.instagram.com/hasber_concretemachine/" target="_blank">  <img src="images/image 6.png" class="ms-2" alt="img">  </a>      
+                           </div>
+
+                         
+
+                   </div>
+
+                     <div class="col-lg-4 col-12 text-white" >
+
+                       <h3 class="font-mont  color-orange">USEFUL LINKS</h3>
+                       <ul class="list-unstyled font-mont lh-lg footer-list-nav " style="font-size: 14px;">
+                           <li> <a href="index.html" class="text-decoration-none ">   Home </a></li>
+                           <li> <a href="About.html" class="text-decoration-none "> About</a> </li>
+                           <li>  <a href="Hasber.html" class="text-decoration-none "> HASBER C-30 </a>  </li>
+                           <li>   <a href="News.html" class="text-decoration-none "> HASBER In NEWS  </a>   </li>
+                           <li>FAQs</li>
+                       </ul>
+                   </div>
+
+
+                    <div class="col-lg-4 col-12" >
+                       <h3 class="font-mont   color-orange">CONTACT </h3>
+                       <ul class="list-unstyled font-mont ">
+                           <li>
+                               <p> <a href="https://goo.gl/maps/cDXe4jfCLCGxuKcu6" class="text-decoration-none text-white" target="_blank">  <img src="images/Group 88.png" alt="img">  HASBER Machine Pvt. Ltd., Blue Ventures, Office no. 203, Opposite Vaishali Restaurant, F.C. Road, Pune, Maharashtra - INDIA - 411004. </a></p>
+                           </li>
+                           <li>
+                               <p>  <a href="mailto:info@hasber.in" class="text-decoration-none text-white"> <img src="images/Group 87.png" alt="img">  info@hasber.in  </a></p>
+                           </li>
+                           <li>
+                               <p>  <img src="images/Group 89.png" alt="img">  Mon - Sat : 10:00 - 18:00</p>
+                           </li>
+                           <li>
+                               <p> <a href="tel:+918669690303"  class="text-decoration-none text-white"> <img src="images/Vector (Stroke).png" alt="img"> +91 8669690303
+                                </a> </p>
+                           </li>
+                       </ul>
+                   </div>
+
+                   <div class="col-12 pt-5 py-3 text-center">
+                     <p class="font-mont">Copyright 2023 HASBER | Designed by Far & Wide</p>
+                 </div>
+
+               </div>
+                </div>
+            </div><!--end of footer-->
+            
+
+
+
+                    
+
+
+    </div><!--end of container-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" ></script>
+
+
+    <!-- <script>
+
+        const popup = document.getElementById('popup');
+        const container = document.getElementById('landing-container');
+        popup.style.display="none"
+
+
+        setTimeout(() => {
+
+          popup.style.display='block',
+
+          popup.classList.add('blur');
+
+        }, 5000);
+
+
+    </script> -->
+
+
+    <script>
+      var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+// var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+// btn.onclick = function() {
+//   // modal.style.display = "block";
+// }
+
+setTimeout(() => {
+  
+  modal.style.display = "block";
+}, 3000);
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+    </script>
+
+
+        <!-- <script>
+      $(window).scroll(function () {
+      if ($(window).scrollTop() >= 400) {
+  $('#myModal').css('display','none');
+  } else {
+  $('#myModal').css('display','block');
+  }
+    });
+    </script> -->
+
+
+</body>
+</html>

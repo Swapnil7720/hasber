@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        div{
+            height: 600px;
+            width: 600px;
+            border: 1px solid;
+            /* background-color: blue; */
+            text-align: center;
+        }
+
+        input{
+            height: 30px;
+            width: 90%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div>
+
+
+    <form method="post" name="google-sheet">
+
+        <h2>Form</h2>
+
+
+        <input type="text" name="Name" placeholder="Enter Name">
+        <input type="text" name="Email" placeholder="Enter email">
+
+        <input type="submit" name="submit">
+
+
+
+
+    </form>
+
+</div>
+    
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxuftUQvS6IaQFVbDSdbrquupTWY0Qz2rGmnkuaFzpKj69riGBS2wpXUS1BXLHmiRTHEA/exec'
+    const form = document.forms['google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+<!-- INSERT INTO `trip` (`sno`, `name`, `email`, `no`, `subject`, `date`) VALUES ('01', 'test name', 'this@gmail.com', '7778887778', 'this is the first ever program using php', current_timestamp()); -->
+
+</body>
+</html>

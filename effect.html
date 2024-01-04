@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hasber</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="images/flaticon.png" type="image/x-icon">
+
+    <style>
+      .btn{
+        /* height: 200px;
+        width: 200px;
+        border-radius: 100%; */
+        /* border: 2px solid red; */
+      }
+      .launch-btn:hover{
+
+        /* transform: scale(1.2); */
+      }
+
+      .launch-btn{
+        transition: 1s linear;
+      }
+    </style>
+
+  </head>
+  <body>
+
+	<div class="container-fluid">
+
+
+		<div class="row min-vh-100 justify-content-center align-items-center">
+
+			<div class="col-12 d-flex justify-content-center align-items-center ">
+        <a  href="index.html"  class="btn  border-0 " id="btn">  <img src="images/Logo.png"  class="launch-btn"  alt="img"> </a>
+			</div>
+		</div>
+
+	</div><!--end of container-->
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <script>
+
+var duration = 15 * 1000;
+var animationEnd = Date.now() + duration;
+var defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
+
+function randomInRange(min, max) {
+  return Math.random() * (max - min) + min;
+}
+
+var interval = setInterval(function() {
+  var timeLeft = animationEnd - Date.now();
+
+  if (timeLeft <= 0) {
+    return clearInterval(interval);
+  }
+
+  var particleCount = 50 * (timeLeft / duration);
+  // since particles fall down, start a bit higher than random
+  confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 } }));
+  confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } }));
+}, 250);
+    </script>
+  </body>
+</html>
