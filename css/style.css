@@ -1030,6 +1030,12 @@ div.pop-up {
    z-index: 8;
   
   }
+  .adrddemo{
+    /* height: 250px; */
+    /* width: 300px; */
+    z-index: 8;
+   
+   }
 
   .demo:hover .pop-up{
     display: block;
