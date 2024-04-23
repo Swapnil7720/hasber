@@ -156,15 +156,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $senderEmail = $_POST['email'];
     $senderName = $_POST['name'];
-    $receiverEmail = "your-email@example.com"; // Change this to your email
+    $receiverEmail = "swapnil.farandwide@gmail.com"; // Change this to your email
 
     $mail = new PHPMailer\PHPMailer\PHPMailer();
 
     $mail->isSMTP();
-    $mail->Host = 'smtp.example.com'; // Change this to your SMTP server
+    $mail->Host = 'SMTP.GOOGLE.COM	'; // Change this to your SMTP server
     $mail->SMTPAuth = true;
-    $mail->Username = 'your-smtp-username'; // Change this to your SMTP username
-    $mail->Password = 'your-smtp-password'; // Change this to your SMTP password
+    $mail->Username = 'swapnil.farandwide@gmail.com'; // Change this to your SMTP username
+    $mail->Password = 'SwapnilxF&W'; // Change this to your SMTP password
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
 
