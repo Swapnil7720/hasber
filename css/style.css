@@ -320,7 +320,15 @@ border-radius:  0px;
 #contact{
     min-height: 80vh;
 }
+.contact-submit{
+    background-color: #EC9E39; 
+}
 
+
+.contact-submit:hover{
+    color:#000;
+    background-color: black;
+}
 .contact-submit{
     background-color: #EC9E39;
 }
