@@ -154,14 +154,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     require 'PHPMailer/PHPMailer.php';
     require 'PHPMailer/SMTP.php';
 
-    $senderEmail = $_POST['email'];
+    $senderEmail = $_POST['swapnil.farandwide@gmail.com'];
     $senderName = $_POST['name'];
     $receiverEmail = "swapnil.farandwide@gmail.com"; // Change this to your email
 
     $mail = new PHPMailer\PHPMailer\PHPMailer();
 
     $mail->isSMTP();
-    $mail->Host = 'SMTP.GOOGLE.COM	'; // Change this to your SMTP server
+    $mail->Host = 'smtp.gmail.com'; // Change this to your SMTP server
     $mail->SMTPAuth = true;
     $mail->Username = 'swapnil.farandwide@gmail.com'; // Change this to your SMTP username
     $mail->Password = 'SwapnilxF&W'; // Change this to your SMTP password
