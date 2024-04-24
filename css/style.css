@@ -292,7 +292,6 @@ border-radius:  0px;
     transform: translateY(-25%);
 } */
 
-
 #owl-carousel-3 .owl-nav button{
     height: 40px;
     width: 40px;
@@ -303,28 +302,20 @@ border-radius:  0px;
     align-items: center;
     color: var(--bs-orange);
   }
-
-  #owl-carousel-3 .owl-nav button:hover{
-    
+  #owl-carousel-3 .owl-nav button:hover{ 
     background-color: var(--bs-orange);
     color: #ffffff;
   }
-
   #owl-carousel-3 .owl-dots button span {
 
-    background-color: var(--bs-orange);
-    
+    background-color: var(--bs-orange); 
   }
-
-
 #contact{
     min-height: 80vh;
 }
 .contact-submit{
     background-color: #EC9E39; 
 }
-
-
 .contact-submit:hover{
     color:#000;
     background-color: black;
@@ -332,25 +323,17 @@ border-radius:  0px;
 .contact-submit{
     background-color: #EC9E39;
 }
-
-
-
-
 .contact-submit:hover{
     color:#000;
     background-color: black;
 }
-
 .contact-me input{
     /* outline: .5px solid ; */
     outline: none;
     border: .5px solid #000;
     /* outline: 1px solid #000; */
 }
-
-
 .contact-me input, .submit-btn{
-
     width: 244px;
     margin-top: 10px;
     padding: 10px;
@@ -363,6 +346,9 @@ border-radius:  0px;
 .stp-dst-logo{
     width: 200px;
     padding-top: 20px;
+}
+.fb-logo{
+    width: 25px;
 }
 #footer h3, #index-footer h3, #contact-footer h3{
 
